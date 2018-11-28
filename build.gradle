@@ -1,0 +1,16 @@
+plugins {
+  id 'application'
+  id 'java'
+}
+
+application {
+    mainClassName = "MyProtocPlugin"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "com.google.protobuf:protobuf-java:3.6.1"
+}

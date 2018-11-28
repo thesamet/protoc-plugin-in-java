@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+import "a.proto";
+
+message ASDF {
+  optional Foo foo = 1;
+}
+
